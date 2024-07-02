@@ -31,5 +31,9 @@ if __name__ == "__main__":
 
     username = 'helloWorld'
     password = 'password'
-    
     print(username,password)
+
+    
+    secret_key = os.getenv('SECRET_KEY')
+    print(f"Your secret key is: {secret_key}")
+
